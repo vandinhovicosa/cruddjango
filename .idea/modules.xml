@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cruddjango.iml" filepath="$PROJECT_DIR$/.idea/cruddjango.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cadastro_Produtos.iml" filepath="$PROJECT_DIR$/.idea/Cadastro_Produtos.iml" />
     </modules>
   </component>
 </project>

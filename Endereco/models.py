@@ -7,4 +7,11 @@ class endereco(models.Model):
     bairro = models.CharField(max_length=255, blank=False, null=False)
     cidade = models.CharField(max_length=255, blank=False, null=False)
     numero = models.IntegerField(null=False, blank=False)
-    cep = models.CharField(max_length=10, null=False, blank=False)    
+    cep = models.CharField(max_length=10, null=False, blank=False)
+
+    class Meta:
+        verbose_name = 'endereço'
+        verbose_name_plural='endereços'
+        
+    def __str__(self):
+        return self.logradouro
